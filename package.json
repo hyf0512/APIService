@@ -1,0 +1,36 @@
+{
+  "name": "apiservice",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "description": "接口测试",
+  "main": "app.js",
+  "devDependencies": {
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-nodemon": "^0.5.4",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hyf0512:hyf19940512@github.com/hyf0512/APIService.git"
+  },
+  "author": "huyunfei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyf0512/APIService/issues"
+  },
+  "homepage": "https://github.com/hyf0512/APIService#readme"
+}
